@@ -4,17 +4,45 @@
     font-family: 'Comfortaa', cursive;
     padding: 6px;
     margin: 10px;
-    border-color: #A5A58D;
-    background: rgb(222, 222, 195);
-    border-style: double;
+    border-color: #243B4A;
+    border-style: solid;
+    border-radius: 10px;
+    background: none;
+    color: #243B4A;
     cursor: pointer;
+    outline: none;
+}
+
+.add-button:hover {
+    background-color: rgba(36, 59, 74, 0.358);;
 }
 
 .main {
     text-align: center;
     justify-content: center;
     display: flex;
-    margin: 60px auto;
     font-family: 'Comfortaa', cursive;
     background: rgba(250, 247, 232, 0.879);
+}
+
+.main-section {
+    margin: 60px auto;
+}
+.list {
+    padding: 0;
+    align-items: center;
+}
+
+.list-item {
+    margin: 10px auto;
+    text-align: center;
+    list-style: '✨';
+    font-size: 14px;
+    padding-left: 6px;
+    max-width: 200px;
+}
+
+.list-paragraph {
+    margin: 30px;
+    text-align: center;
 }
