@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+.add-button {
+    font-family: 'Comfortaa', cursive;
+    padding: 6px;
+    margin: 10px;
+    border-color: #A5A58D;
+    background: rgb(222, 222, 195);
+    border-style: double;
+    cursor: pointer;
+}
+
+.main {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: 60px auto;
+    font-family: 'Comfortaa', cursive;
+    background: rgba(250, 247, 232, 0.879);
+}
