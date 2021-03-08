@@ -3,7 +3,7 @@
 .add-button, .input-button {
     font-family: 'Comfortaa', cursive;
     padding: 6px;
-    margin: 10px;
+    margin: 15px;
     border-color: #243B4A;
     border-style: solid;
     border-radius: 10px;
@@ -14,7 +14,42 @@
 }
 
 .add-button:hover {
-    background-color: rgba(36, 59, 74, 0.358);;
+    background-color: rgba(36, 59, 74, 0.358);
+}
+
+.form {
+    display: inline;
+}
+
+.input {
+    font-family: 'Comfortaa', cursive;
+    padding: 6px;
+    margin: 6px;
+    border-color: rgba(0, 0, 0, 0.249);
+    border-style: solid;
+    border-radius: 10px;
+    background: none;
+    color: #243B4A;
+    outline: none;
+}
+
+.list {
+    padding: 0;
+    align-items: center;
+}
+
+.list-item {
+    margin: 10px auto;
+    text-align: left;
+    list-style: '✨';
+    font-size: 14px;
+    padding-left: 6px;
+    max-width: 200px;
+}
+
+.list-paragraph {
+    margin: 30px;
+    text-align: center;
 }
 
 .main {
@@ -28,21 +63,4 @@
 .main-section {
     margin: 60px auto;
 }
-.list {
-    padding: 0;
-    align-items: center;
-}
 
-.list-item {
-    margin: 10px auto;
-    text-align: center;
-    list-style: '✨';
-    font-size: 14px;
-    padding-left: 6px;
-    max-width: 200px;
-}
-
-.list-paragraph {
-    margin: 30px;
-    text-align: center;
-}

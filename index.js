@@ -31,5 +31,5 @@ inputButton.addEventListener('click', () => {
     if (myIdea == "") {
         alert('Your list will look better when you put here something 🤓')
     }
-    
+
 });
