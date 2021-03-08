@@ -17,7 +17,19 @@ addButton.addEventListener('click', () => {
 });
 
 inputButton.addEventListener('click', () => {
+
+    const form = document.querySelector('.form');
     const myIdea = input.value;
+    const newElement = document.createElement("li");
+    newElement.className = "list-item";
+    newElement.id = "list-item";
+    newElement.innerText = `${myIdea}`;
     const list = document.querySelector('.list');
-    list.append(`${myIdea}`);
+    list.appendChild(newElement);
+    form.reset();
+
+    if (myIdea == "") {
+        alert('Your list will look better when you put here something 🤓')
+    }
+    
 });
