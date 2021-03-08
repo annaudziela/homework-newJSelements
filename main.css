@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 
-.add-button {
+.add-button, .input-button {
     font-family: 'Comfortaa', cursive;
     padding: 6px;
     margin: 10px;
